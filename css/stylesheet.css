@@ -1,35 +1,260 @@
+/****************************************
+GENERAL
+*****************************************/
 
-.header {
-	background-color: #3498db;
-	font-size:12px;
-	height:200px;
-	margin:0 auto;
-	width:960px;
-
+body {
+	font-family: 'Open Sans', sans-serif;
 }
 
-#content {
-	background-color: #ecf0f1;
-	font-size:12px;
-	
-	margin:0 auto;
-	width:960px;
-
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	background: #ecf0f1;
+	padding:0 5%;
+	min-height: 1000px;
 }
 
-.footer {
-	background-color: #95a5a6;
-	font-size:12px;
-	height:200px;
-	margin:0 auto;
-	width:960px;
+a {
+  text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+/****************************************
+HEADING
+*****************************************/
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+#over {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    min-width:  100px;
+}
+
+h1 {
+	font-family: 'Ubuntu', sans-serif;
+	margin:  15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h1 {
+	font-size: 1.75em;
+	margin:  -5px 0 0;
+	font-weight: normal;
+}
+
+
+
+/****************************************
+NAVIGATION
+*****************************************/
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10;
+	padding: 0;
 }
 
 nav li {
- display:inline-block;
- 	color: white;
+	display: inline-block;
 }
 
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+
+/****************************************
+FOOTER
+*****************************************/
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: #ccc;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+/****************************************
+PAGE: LESSONS
+*****************************************/
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #f5f5f5;
+	color: #bdc3c7;
+}
+
+#gallery li a p {
+	margin: 0;
+	padding: 5px;
+	font-size:  0.75em;
+	color: #bdc3c7;
+}
+
+/****************************************
+COLORS
+*****************************************/
+
+/* site body */
+body {
+	background-color: #fff;
+	color: #999;
+}
+
+/* blue header */
+header {
+	background-color: #3498db;
+	border-color: #2980b9;
+	font-size:12px;
+	height:200px;
+}
+
+/* nav background on mobile */
+nav {
+	background: #2980b9;
+}
+
+/* logo text */
+h1, h2 {
+	color: white;
+}
+
+/* links */
+a {
+	color: red;
+}
+
+/* nav link */
+nav a, nav a:visited {
+	color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+	color: #2c3e50;
+}
+
+
+
+
+
+#lesson-content {
+	width: 960px;
+	margin:0 auto;
+	background-color: #ecf0f1;
+	padding-top: 10px;
+
+}
+
+
+.lesson-screen {
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    background-color: white;
+    height: 440px;
+    border: 10px solid #eee;
+    border-color: #2d3339; 
+    width: 880px;
+    margin:0 auto;
+    margin-top: 20px;
+
+}
+
+.lesson-nav {
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    background-color: white;
+    width: 900px;
+    height: 120px;
+    margin:0 auto;
+}
+
+.lesson-nav-meta {
+    margin-top: 15px;
+    height: 40px;
+    width: 758px ;
+    margin-left: 25px;
+    display: inline-block;
+}
+
+.steps {
+	
+    height: 50px;
+    width: 100% ;
+   /* margin-left: 25px; */
+    display: inline-block;
+    margin:0 auto;
+   
+}
+
+.step-previous {
+    float: left;
+	background-color: #D4D9DD;
+	background-image: url(../img/al.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 435px;
+    height: 50px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.step-previous:hover {
+    background-color: #C2185B;
+}
+
+.step-next {
+    float: left;
+	background-color: #D4D9DD;
+	background-image: url(../img/ar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 435px;
+    height: 50px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+.step-next:hover {
+    background-color: #C2185B;
+}
 
 
 .level {
