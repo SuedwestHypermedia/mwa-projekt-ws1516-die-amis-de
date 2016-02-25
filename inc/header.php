@@ -15,15 +15,15 @@
 
 	<!-- Header -->
 	<header>
-		<a href="index.html"><img src="img/logo001.png" id="over"></a>
+		<a href="index.php"><img src="img/logo001.png" id="over"></a>
 			<!-- Main Navigation -->
 		<nav>
 			<ul>
-				<li><a href="dictionary.html">Wörterbuch</a>
-				<li><a href="tanslator.html">Übersetzer</a>
-				<li><a href="grammar.html">Grammatik</a>
-				<li><a href="lessons.html">Unterrichten</a>
-				<li><a href="tests.html">Tests</a>
+				<li><a href="dictionary.php">Wörterbuch</a>
+				<li><a href="tanslator.php">Übersetzer</a>
+				<li><a href="grammar.php">Grammatik</a>
+				<li><a href="lessons.php">Unterrichten</a>
+				<li><a href="tests.php">Tests</a>
 			</ul>
 		</nav>
 			<!-- end Main Navigation -->
