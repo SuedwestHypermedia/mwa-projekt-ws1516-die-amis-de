@@ -1,40 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Die Amis - Home</title>
-	<link rel="stylesheet" href="css/normalize.css" type="text/css">
-	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700|Open+Sans:400,400italic,700,700italic,800' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+<?php 
+$pageTitle = "Impressum";
 
-
-</head>
-<body>
-
-
-
-	<!-- Header -->
-	<header>
-		<a href="index.html"><img src="img/logo001.png" id="over"></a>
-			<!-- Main Navigation -->
-		<nav>
-			<ul>
-				<li><a href="dictionary.html">Wörterbuch</a>
-				<li><a href="tanslator.html">Übersetzer</a>
-				<li><a href="grammar.html">Grammatik</a>
-				<li><a href="lessons.html">Unterrichten</a>
-				<li><a href="tests.html">Tests</a>
-			</ul>
-		</nav>
-			<!-- end Main Navigation -->
-	</header>
+include("inc/header.php"); ?>
 
 
 
 	<div id="wrapper">
 
 		<section>
-			<h3>Impressum</h3>
+<h3>Impressum</h3>
 			<p>
 <p>M. A. Erdogan<br />
 Pfaffenwaldring<br />70569 Stuttgart</p>
@@ -109,13 +83,6 @@ Twitter bietet Ihnen unter nachfolgendem Link die Möglichkeit, Ihre Datenschutz
 			</p>
 		</section>
 
+</div>
 		
-		<footer>
-			<a href="http://www."><img src="img/twitter-wrap.png" class="social-icon"></a>
-			<a href="http://www."><img src="img/facebook-wrap.png" class="social-icon"></a>
-			<p>&copy; 2016 Die Amis. <a href="#">Impressum</a></p>
-		</footer>
-	</div>
-
-</body>
-</html>
+<?php include("inc/footer.php"); ?>
