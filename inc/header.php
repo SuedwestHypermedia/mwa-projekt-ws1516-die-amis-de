@@ -18,6 +18,7 @@
 		<a href="index.php"><img src="img/logo001.png" id="over"></a>
 			<!-- Main Navigation -->
 		<nav>
+			
 			<ul>
 				<li><a href="dictionary.php">Wörterbuch</a>
 				<li><a href="tanslator.php">Übersetzer</a>
@@ -25,6 +26,7 @@
 				<li><a href="lessons.php">Unterrichten</a>
 				<li><a href="tests.php">Tests</a>
 			</ul>
+
 		</nav>
 			<!-- end Main Navigation -->
 	</header>
