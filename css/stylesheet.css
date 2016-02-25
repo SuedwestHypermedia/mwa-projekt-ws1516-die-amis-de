@@ -38,8 +38,7 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 10%;
-    min-width:  100px;
+    width: 50%;
 }
 
 h1 {
@@ -82,6 +81,25 @@ nav a {
 	padding: 15px 10px;
 }
 
+
+#top-nav {
+	text-align: center;
+}
+
+#top-nav ul {
+	list-style: none;
+	margin: 0 10;
+	padding: 0;
+}
+
+#top-nav li {
+	display: inline-block;
+}
+
+#top-nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
 
 /****************************************
 FOOTER
@@ -142,6 +160,13 @@ header {
 	border-color: #2980b9;
 	font-size:12px;
 	height:200px;
+}
+
+/* top nav*/
+#top-nav {
+	background-color: #3498db;
+	border-color: #2980b9;
+	font-size:12px;
 }
 
 /* nav background on mobile */

@@ -1,3 +1,14 @@
+<?php 
+$pageTitle = "Die Amis - Home";
+
+include("inc/header.php"); ?>
+
+
+
+<div id="wrapper">
+
+		<section>
+
 <h1>Anmelung</h1>
 <br>
 <form action="send_registeration.php" method="post">
@@ -14,7 +25,7 @@
 			<td>Geschlecht</td>
 			<td>
 				<input name="geschlecht" type="radio" value="w"> Weiblich
-				<imput name="geschlecht" type="radio" value="m"> Männlich
+				<input name="geschlecht" type="radio" value="m"> Männlich
 			</td>
 		</tr>
 		<tr>
@@ -46,7 +57,13 @@
 </form>
 
 
+</section>
 
+</div>
+
+
+
+<?php include("inc/footer.php"); ?>
 
 
 

@@ -15,7 +15,14 @@
 
 	<!-- Header -->
 	<header>
-		<a href="index.php"><img src="img/logo001.png" id="over"></a>
+		<div id="top-nav">
+			<ul>
+				<li></li>
+				<li><a href="index.php"><img src="img/logo001.png" id="over"></a></li>
+				<li><a href="register.php">Anmelden</a></li>
+			</ul>
+		
+		</div>
 			<!-- Main Navigation -->
 		<nav>
 			
@@ -25,6 +32,7 @@
 				<li><a href="grammar.php">Grammatik</a>
 				<li><a href="lessons.php">Unterrichten</a>
 				<li><a href="tests.php">Tests</a>
+			
 			</ul>
 
 		</nav>

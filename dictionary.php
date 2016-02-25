@@ -10,13 +10,20 @@ include("inc/header.php"); ?>
 	<div id="wrapper">
 
 		<section>
+			
+			
 			<ul>
 				<?php 
-				foreach($dictdb as $id => $en_word) {
-					echo get_word_html($id, $en_word, $type, $ );
+				foreach($dictdb as $id => $item) {
+					echo get_item_html($id, $item);
 				}
 				?>
 			</ul>
+				
+
+
+
+
 		</section>
 
 </div>
