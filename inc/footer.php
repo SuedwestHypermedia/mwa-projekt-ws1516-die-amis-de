@@ -1,10 +1,7 @@
 
 		<footer>
-			<a href="http://www."><img src="img/twitter-wrap.png" class="social-icon"></a>
-			<a href="http://www."><img src="img/facebook-wrap.png" class="social-icon"></a>
-			
+			<a href="http://www.die-amis.de/impressum.php">Impressum</a>
 		</footer>
 	
-
 </body>
 </html>
