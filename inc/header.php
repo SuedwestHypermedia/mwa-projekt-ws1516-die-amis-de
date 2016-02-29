@@ -16,11 +16,7 @@
 	<!-- Header -->
 	<header>
 		<div id="top-nav">
-			<ul>
-				<li></li>
-				<li><a href="index.php"><img src="img/logo001.png" id="over"></a></li>
-				<li><a href="register.php">Anmelden</a></li>
-			</ul>
+			
 		
 		</div>
 			<!-- Main Navigation -->

@@ -7,13 +7,12 @@ include("inc/header.php"); ?>
 
 		<section>
 			<ul id="gallery">
-				<li><a href="#"><img src="img/course.jpg">  <p>Beginner A1</p></a></li>
-
-				<li><a href="#"><a href="#"><img src="img/course.jpg"><p>Beginner A2</p></a> </li>
-				<li><a href="#"><a href="#"><img src="img/course.jpg"> <p>Beginner B1</p></a> </li>
-				<li><a href="#"><a href="#"><img src="img/course.jpg"> <p>Beginner B2</p></a> </li>
-				<li><a href="#"><a href="#"><img src="img/course.jpg"> <p>Beginner C1</p> </a></li>
-				<li><a href="#"><a href="#"><img src="img/course.jpg"> <p>Beginner C2</p></a></li>
+				<li><a href="#"><img src="img/a1_banner.png"><p>Beginner</p></a></li>
+				<li><a href="#"><a href="#"><img src="img/a2_banner.png"><p>Elementary</p></a> </li>
+				<li><a href="#"><a href="#"><img src="img/b1_banner_hd.png"> <p>Intermediate</p></a> </li>
+				<li><a href="#"><a href="#"><img src="img/b2_banner_hd.png"> <p>Upper intermediate</p></a> </li>
+				<li><a href="#"><a href="#"><img src="img/c1_banner_hd.png"> <p>Advanced</p> </a></li>
+				<li><a href="#"><a href="#"><img src="img/c2_banner_hd.png"> <p>Proficiency</p></a></li>
 			</ul> 
 		</section>
 

@@ -64,6 +64,7 @@ nav {
 	text-align: center;
 	padding: 10px 0;
 	margin: 20px 0 0;
+	clear: both;
 }
 
 nav ul {
@@ -196,16 +197,13 @@ nav a.selected, nav a:hover {
 
 
 
-
-
 #lesson-content {
-	width: 960px;
-	margin:0 auto;
-	background-color: #ecf0f1;
-	padding-top: 10px;
-
+	max-width: 940px;
+	margin: 0 auto;
+	background: #ecf0f1;
+	padding:0 5%;
+	display: inline-block;
 }
-
 
 .lesson-screen {
     border-top-left-radius:5px;
@@ -213,10 +211,63 @@ nav a.selected, nav a:hover {
     background-color: white;
     height: 440px;
     border: 10px solid #eee;
-    border-color: #2d3339; 
-    width: 880px;
+    border-color: #2980b9; 
+	max-width: 940px;
     margin:0 auto;
+    	padding:0 5%;
     margin-top: 20px;
+
+}
+
+.dilbilgisi-course-top {
+    height: 75px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.dilbilgisi-course-top a {
+color: #C2185B;
+text-decoration: none;
+}
+
+.dilbilgisi-course-middle {
+ background-color: white; 
+    height: 260px;
+    padding: 20px;
+     border-radius:5px;
+}
+
+.dilbilgisi-course-bottom {
+  /*  background-color: #F0F4C3; */
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.dct-ogretmen {
+    float: left;
+    height: 75px;
+    max-width: 940px;
+    margin:0 auto;
+    padding:0 5%;
+    background: url(../img/t.png) no-repeat;
+    background-size: 75px;
+}
+
+.dct-konusma {
+    float: left;
+    max-width: 940px;
+    margin:0 auto;
+    padding:0 5%;
+    height: 55px;
+    line-height: 55px;
+    background-color: #ECEFF1;
+    border-radius:20px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+    color: #37474F;
 
 }
 
@@ -224,15 +275,17 @@ nav a.selected, nav a:hover {
     border-top-left-radius:5px;
     border-top-right-radius:5px;
     background-color: white;
-    width: 900px;
-    height: 120px;
+    height: 100px;
+   	max-width: 940px;
     margin:0 auto;
+    padding:0 5%;
 }
 
 .lesson-nav-meta {
     margin-top: 15px;
-    height: 40px;
-    width: 758px ;
+   	max-width: 940px;
+    margin:0 auto;
+    padding:0 5%;
     margin-left: 25px;
     display: inline-block;
 }
@@ -240,11 +293,8 @@ nav a.selected, nav a:hover {
 .steps {
 	
     height: 50px;
-    width: 100% ;
-   /* margin-left: 25px; */
-    display: inline-block;
     margin:0 auto;
-   
+    max-width: 940px;
 }
 
 .step-previous {
@@ -253,12 +303,12 @@ nav a.selected, nav a:hover {
 	background-image: url(../img/al.png);
     background-repeat: no-repeat;
     background-position: center;
-    width: 435px;
-    height: 50px;
+    width: 48%;
+	margin: 1%;
+    height: 90%;
     border-top-left-radius:5px;
     border-bottom-left-radius:5px;
-    margin-left: 10px;
-    margin-right: 10px;
+
 }
 
 .step-previous:hover {
@@ -271,8 +321,9 @@ nav a.selected, nav a:hover {
 	background-image: url(../img/ar.png);
     background-repeat: no-repeat;
     background-position: center;
-    width: 435px;
-    height: 50px;
+    width: 48%;
+	margin: 1%;
+    height: 90%;
     border-top-right-radius:5px;
     border-bottom-right-radius:5px;
 }
