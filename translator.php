@@ -37,7 +37,7 @@ include("inc/header.php"); ?>
 <?php
 	// Google Translate API Key
     $apiKey = 'AIzaSyDlCChtJMBUatdS16Ags8NnT0FAwbEoTGU';
-    $text = 'Ich libe dich!';
+    $text = 'Who are you?';
     $url = 'https://www.googleapis.com/language/translate/v2?key=' . $apiKey . '&q=' . rawurlencode($text) . '&source=en&target=de';
 
     $handle = curl_init($url);
