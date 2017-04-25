@@ -1,4 +1,4 @@
-# Die Amis - Discover American Culture & Learn American English online
+# Die Amis - An e-learning web app
 
 An e-learning web application helps native German speakers to discover American culture and learn American English
 
